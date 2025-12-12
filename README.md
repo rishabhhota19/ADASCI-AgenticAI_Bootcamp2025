@@ -24,9 +24,78 @@ Walk away with real working systems, reusable frameworks, and a strategic roadma
 ---
 
 ![roadmap1](/images/roadmap1.png)
+---
 ![llmcomparison](/images/llmcomparison.png)
+---
 ![agentcomparison](/images/agentcomparison.png)
 
 ---
 
 ## Directory Structure
+### 🌐 Agentic Frameworks/
+Examples and templates for major agentic AI frameworks.
+
+#### 🤖 Autogen/
+- 🧩 `.env_sample` — Sample environment variables.  
+- 🤖 `autogen_agent.py` — Core AutoGen agent implementation.  
+- 📝 `autogen_groupchat_example.md` — Group-chat example documentation.  
+- 💬 `autogen_groupchat.py` — Multi-agent conversation workflow.  
+- 🗺️ `autogen_travel_planner.md` — Travel-planning agent walkthrough.
+
+#### 🚀 CrewAI/
+- 🧩 `.env_sample` — Sample environment variables.  
+- 🤖 `crewai_agent.py` — CrewAI autonomous agent.  
+- 📄 `crewai_content_agents.md` — Building content-focused agents.  
+- 🔍 `crewai_tavily_toolusage.md` — Tavily search tool usage guide.  
+- 🛠️ `crewai_toolusage.py` — CrewAI tool integration examples.
+
+#### 🕸️ LangGraph/
+Framework demos for LangGraph with UIs and workflow examples.
+
+##### 🧪 LangGraph Agent with Streamlit, FastAPI, and Pydantic/
+- 🧩 `.env_sample` — Sample environment config.  
+- 🤖 `ai_agent.py` — LangGraph agent logic.  
+- ⚙️ `pydantic_fastapi.py` — FastAPI backend using Pydantic models.  
+- 🖥️ `streamlit_frontend.py` — Streamlit UI for the agent.
+
+##### 🧠 Multi_Agent_Workflow/
+- 📘 `LangGraph_MultiAgent_Workflow.md` — Multi-agent orchestration guide.
+
+#### 🟦 Strands/
+AWS Strands Agent examples and deployment guides.
+- 🚀 `Deploying_StrandsAgent_through_GitHubCodespaces_AWSAgentCore.md` — Deployment tutorial.  
+- 📘 `Strands_with_AWS_Bedrock_Agentcore_101.md` — Beginner guide to Strands + Bedrock AgentCore.
+
+##### 📸 ss/
+- 🖼️ `*.png` — Screenshots for Strands demos & deployments.
+
+---
+
+### 🧩 Agentic Patterns/
+Reusable logic patterns for building intelligent agents.
+
+#### 🧠 Pattern Scripts/
+- 🤖 `MultiAgent.py` — Multi-agent orchestration example.  
+- ⚡ `Parallelization.py` — Parallel task execution.  
+- 🧭 `Planning.py` — Planning agent logic.  
+- 🔗 `PromptChaining.py` — Prompt chaining implementation.  
+- 🔁 `Reflection.py` — Reflection/critique loop logic.  
+- 🔀 `Routing.py` — Agent routing & handoff.  
+- 🛠️ `ToolUsage.py` — Tool-use pattern.
+
+---
+
+### 🖼️ images/
+Repo-level visuals.
+
+- 📊 `agentcomparison.png` — Comparison of agent frameworks.  
+- 🤖 `llmcomparison.png` — LLM comparison chart.  
+- 🗺️ `roadmap1.png` — Roadmap visualization.
+
+---
+
+### 📘 README.md
+Main documentation entry point.
+
+
+
